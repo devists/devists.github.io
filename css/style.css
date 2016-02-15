@@ -1,1 +1,48 @@
-/*Start your css code from here*/
+html {
+    height: 100%;
+}
+
+body#cs {
+    background-color: #009688;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#cs .logo img {
+    width: 350px;
+    height: auto;
+}
+
+#cs .logo .wcs-text {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 5px 2px 0px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s;
+}
+
+#cs .logo .wcs-text:hover {
+    box-shadow: 8px 10px 2px 0px rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+}
+
+#cs .logo .wcs-text .w-t {
+    padding: 12px 20px;
+}
+
+#cs .logo .wcs-text .cs-t {
+    background-color: #009688;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+}
+
+#cs .logo .wcs-text span {
+    margin: 0;
+    color: #009688;
+    font-weight: lighter;
+    font-size: x-large;
+}
