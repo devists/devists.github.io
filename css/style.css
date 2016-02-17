@@ -12,11 +12,6 @@ body#cs {
     margin: 0;
 }
 
-#cs .logo img {
-    width: 350px;
-    height: auto;
-}
-
 #cs .logo .wcs-text {
     background-color: white;
     display: flex;
@@ -46,4 +41,8 @@ body#cs {
     color: #009688;
     font-weight: lighter;
     font-size: x-large;
+}
+
+#devists {
+	width: 350px;
 }
