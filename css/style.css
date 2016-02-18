@@ -4,10 +4,10 @@ html {
 
 body#cs {
     background-color: #009688;
-    background-image:url("../img/coming_soon_background.jpg");
+    background-image: url("../img/coming_soon_background.jpg");
     background-position: center;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     height: 100%;
     display: flex;
     align-items: center;
@@ -22,6 +22,7 @@ body#cs {
     justify-content: space-between;
     box-shadow: 4px 5px 2px 0px rgba(0, 0, 0, 0.7);
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 #cs .logo .wcs-text:hover {
@@ -48,5 +49,5 @@ body#cs {
 }
 
 #devists {
-	width: 350px;
+    width: 350px;
 }
