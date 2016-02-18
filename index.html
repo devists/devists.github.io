@@ -74,7 +74,7 @@
     </div>
     <script>
     $(document).ready(function() {
-        myVivus =  new Vivus('devists', {
+        myVivus = new Vivus('devists', {
             duration: 350,
             type: 'oneByOne',
             animTimingFunction: Vivus.EASE_OUT_BOUNCE,
@@ -84,8 +84,12 @@
         }, function() {
             console.log("Animation Over");
             $('#devists path').css({
-                    "fill-opacity": "1",
-                    "transition": "fill-opacity"
+                "fill-opacity": "1",
+                "transition": "fill-opacity"
+            });
+            $('.wcs-text').css({
+                "opacity": "1",
+                "transform": "translateX(0) rotate(0)"
             });
         });
 
@@ -96,9 +100,9 @@
                 "fill-opacity": "0"
             });
             myVivus
-            .stop()
-            .reset()
-            .play();
+                .stop()
+                .reset()
+                .play();
         });
     });
     </script>
