@@ -24,9 +24,8 @@ body#cs {
     box-shadow: 4px 5px 2px 0px rgba(0, 0, 0, 0.7);
     transition: all 0.5s;
     text-decoration: none;
-    transform: translateX(-1000px) rotate(900deg);
     opacity: 0;
-    transition: all 1.5s cubic-bezier(0, 2.2, 0.55, 0.65)
+    transition: opacity 1.5s ease-in,box-shadow 1s ease;
 }
 
 #cs .logo .wcs-text:hover {
